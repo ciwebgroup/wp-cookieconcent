@@ -1,0 +1,237 @@
+# Copyright (C) 2025 Cookie Consent Manager
+# This file is distributed under the GPLv3 License.
+msgid ""
+msgstr ""
+"Project-Id-Version: Cookie Consent Manager 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wp-cookieconsent\n"
+"POT-Creation-Date: 2025-11-15 00:00:00+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2025-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: wp-cookieconsent.php
+msgid "Cookie Consent Settings"
+msgstr ""
+
+msgid "Cookie Consent"
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+msgid "General Settings"
+msgstr ""
+
+msgid "Appearance Settings"
+msgstr ""
+
+msgid "Text Content"
+msgstr ""
+
+msgid "Cookie Categories"
+msgstr ""
+
+msgid "Consent Mode"
+msgstr ""
+
+msgid "Opt-in (default, GDPR compliant)"
+msgstr ""
+
+msgid "Opt-out"
+msgstr ""
+
+msgid "Choose between opt-in and opt-out mode."
+msgstr ""
+
+msgid "Auto Show"
+msgstr ""
+
+msgid "Automatically show the consent modal if consent is not valid."
+msgstr ""
+
+msgid "Disable Page Interaction"
+msgstr ""
+
+msgid "Create dark overlay and disable page scroll until consent."
+msgstr ""
+
+msgid "Hide from Bots"
+msgstr ""
+
+msgid "Stop the plugin execution if a bot/crawler is detected."
+msgstr ""
+
+msgid "Consent Modal Layout"
+msgstr ""
+
+msgid "Box"
+msgstr ""
+
+msgid "Box Wide"
+msgstr ""
+
+msgid "Box Inline"
+msgstr ""
+
+msgid "Cloud"
+msgstr ""
+
+msgid "Cloud Inline"
+msgstr ""
+
+msgid "Bar"
+msgstr ""
+
+msgid "Bar Inline"
+msgstr ""
+
+msgid "Choose the layout for the consent modal."
+msgstr ""
+
+msgid "Consent Modal Position"
+msgstr ""
+
+msgid "Top"
+msgstr ""
+
+msgid "Top Left"
+msgstr ""
+
+msgid "Top Center"
+msgstr ""
+
+msgid "Top Right"
+msgstr ""
+
+msgid "Middle"
+msgstr ""
+
+msgid "Middle Left"
+msgstr ""
+
+msgid "Middle Center"
+msgstr ""
+
+msgid "Middle Right"
+msgstr ""
+
+msgid "Bottom"
+msgstr ""
+
+msgid "Bottom Left"
+msgstr ""
+
+msgid "Bottom Center"
+msgstr ""
+
+msgid "Bottom Right"
+msgstr ""
+
+msgid "Choose the position for the consent modal."
+msgstr ""
+
+msgid "Preferences Modal Layout"
+msgstr ""
+
+msgid "Bar Wide"
+msgstr ""
+
+msgid "Choose the layout for the preferences modal."
+msgstr ""
+
+msgid "Preferences Modal Position"
+msgstr ""
+
+msgid "Left"
+msgstr ""
+
+msgid "Right"
+msgstr ""
+
+msgid "Choose the position for the preferences modal."
+msgstr ""
+
+msgid "Consent Modal Title"
+msgstr ""
+
+msgid "Title displayed in the consent modal."
+msgstr ""
+
+msgid "Consent Modal Description"
+msgstr ""
+
+msgid "Description displayed in the consent modal."
+msgstr ""
+
+msgid "\"Accept All\" Button Text"
+msgstr ""
+
+msgid "Text for the \"Accept All\" button."
+msgstr ""
+
+msgid "\"Reject All\" Button Text"
+msgstr ""
+
+msgid "Text for the \"Reject All\" button."
+msgstr ""
+
+msgid "\"Manage Preferences\" Button Text"
+msgstr ""
+
+msgid "Text for the \"Manage Preferences\" button."
+msgstr ""
+
+msgid "Preferences Modal Title"
+msgstr ""
+
+msgid "Title displayed in the preferences modal."
+msgstr ""
+
+msgid "Enable Analytics by Default"
+msgstr ""
+
+msgid "Enable analytics cookies by default (only in opt-out mode)."
+msgstr ""
+
+msgid "Enable Marketing by Default"
+msgstr ""
+
+msgid "Enable marketing cookies by default (only in opt-out mode)."
+msgstr ""
+
+msgid "Configure general cookie consent behavior."
+msgstr ""
+
+msgid "Customize the appearance of the cookie consent modals."
+msgstr ""
+
+msgid "Customize the text content displayed in the modals."
+msgstr ""
+
+msgid "Configure cookie categories. Necessary cookies are always enabled and cannot be disabled."
+msgstr ""
+
+msgid "Settings saved successfully."
+msgstr ""
+
+msgid "Save Settings"
+msgstr ""
+
+msgid "About Cookie Consent"
+msgstr ""
+
+msgid "This plugin uses the vanilla-cookieconsent library to provide a lightweight, GDPR-compliant cookie consent solution."
+msgstr ""
+
+msgid "Documentation:"
+msgstr ""
+
+msgid "Visit Official Documentation"
+msgstr ""
+
+msgid "Version:"
+msgstr ""
+

@@ -1,0 +1,208 @@
+/**
+ * Admin Styles for Cookie Consent Manager
+ *
+ * @package WP_CookieConsent
+ */
+
+.wp-cookieconsent-settings-container {
+    max-width: 1200px;
+}
+
+.wp-cookieconsent-settings-container .form-table {
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.wp-cookieconsent-settings-container .form-table tr {
+    border-bottom: 1px solid #c3c4c7;
+}
+
+.wp-cookieconsent-settings-container .form-table th {
+    padding: 20px 10px 20px 20px;
+    vertical-align: top;
+}
+
+.wp-cookieconsent-settings-container .form-table td {
+    padding: 15px 10px;
+}
+
+.wp-cookieconsent-settings-container h2 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    padding: 15px 20px;
+    background: #f0f0f1;
+    border-left: 4px solid #2271b1;
+}
+
+.wp-cookieconsent-settings-container h2:first-child {
+    margin-top: 0;
+}
+
+.wp-cookieconsent-settings-container .description {
+    color: #646970;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.wp-cookieconsent-info {
+    background: #fff;
+    padding: 20px;
+    margin-top: 30px;
+    border: 1px solid #c3c4c7;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.wp-cookieconsent-info h2 {
+    margin: 0 0 15px 0;
+    padding: 0;
+    background: none;
+    border: none;
+}
+
+.wp-cookieconsent-info p {
+    margin: 10px 0;
+}
+
+.wp-cookieconsent-info a {
+    color: #2271b1;
+    text-decoration: none;
+}
+
+.wp-cookieconsent-info a:hover {
+    text-decoration: underline;
+}
+
+/* Color picker field */
+.wp-cookieconsent-color-picker {
+    max-width: 100px;
+}
+
+/* Toggle switch styling */
+.wp-cookieconsent-toggle {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 24px;
+}
+
+.wp-cookieconsent-toggle input[type="checkbox"] {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.wp-cookieconsent-toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: 0.4s;
+    border-radius: 24px;
+}
+
+.wp-cookieconsent-toggle-slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: 0.4s;
+    border-radius: 50%;
+}
+
+.wp-cookieconsent-toggle input[type="checkbox"]:checked + .wp-cookieconsent-toggle-slider {
+    background-color: #2271b1;
+}
+
+.wp-cookieconsent-toggle input[type="checkbox"]:focus + .wp-cookieconsent-toggle-slider {
+    box-shadow: 0 0 1px #2271b1;
+}
+
+.wp-cookieconsent-toggle input[type="checkbox"]:checked + .wp-cookieconsent-toggle-slider:before {
+    transform: translateX(26px);
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 782px) {
+    .wp-cookieconsent-settings-container .form-table th,
+    .wp-cookieconsent-settings-container .form-table td {
+        display: block;
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .wp-cookieconsent-settings-container .form-table th {
+        padding-bottom: 5px;
+    }
+}
+
+/* Success message styling */
+.updated.wp-cookieconsent-message {
+    border-left-color: #00a32a;
+}
+
+/* Preview section */
+.wp-cookieconsent-preview {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.wp-cookieconsent-preview h3 {
+    margin-top: 0;
+}
+
+.wp-cookieconsent-preview-notice {
+    background: #fff3cd;
+    border: 1px solid #ffc107;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+}
+
+.wp-cookieconsent-preview-notice p {
+    margin: 0;
+    color: #856404;
+}
+
+/* Tab navigation (for future use) */
+.wp-cookieconsent-tabs {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border-bottom: 1px solid #c3c4c7;
+    margin-bottom: 20px;
+}
+
+.wp-cookieconsent-tabs li {
+    display: inline-block;
+    margin: 0 5px -1px 0;
+}
+
+.wp-cookieconsent-tabs li a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    border: 1px solid transparent;
+    color: #2271b1;
+}
+
+.wp-cookieconsent-tabs li a:hover {
+    background: #f0f0f1;
+}
+
+.wp-cookieconsent-tabs li.active a {
+    background: #fff;
+    border: 1px solid #c3c4c7;
+    border-bottom-color: #fff;
+    color: #000;
+}
+
